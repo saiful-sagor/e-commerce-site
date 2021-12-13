@@ -1437,3 +1437,232 @@ product ul a{
       bottom: -8%;
     }
   }
+
+  /* News Section */
+
+  .news{
+      padding-bottom: 8rem;
+  }
+
+  .new__card{
+      background-color: var(--primaryColor);
+      width: 95%;
+      margin: 0 auto;
+  }
+
+  .new__card:not(:last-child){
+      margin-right: 1rem;
+  }
+
+  .card__footer{
+      padding: 3rem 1.4rem;
+
+  }
+
+  .card__footer h3{
+      font-size: 2.5rem;
+      font-weight: 600;
+      color: var(--black);
+      margin-bottom: 1rem;
+  }
+
+  .card__footer span{
+      display: inline-block;
+      margin-bottom: 1rem;
+      color: var(--black2);
+
+  }
+
+  .card__footer p{
+      font-size: 1.5rem;
+      color: var(--black2);
+      margin-bottom: 1.6rem;
+      line-height: 2.7rem;
+  }
+
+  .card__footer a:link,
+  .card__footer a:visited{
+      display: inline-block;
+      padding: 1.4rem 4rem;
+      border: 1px solid var(--black);
+      color: var(--black);
+      transition:all .3s;
+  }
+
+  .card__footer a:hover{
+      border: 1px solid var(--black);
+      color: var(--white);
+      background-color: var(--black);
+  }
+
+  /* Newsletter */
+
+  .newsletter {
+    padding: 6rem 0;
+    border-top: 1px solid var(--primaryColor);
+  }
+  
+  .newsletter__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .newsletter__data h3 {
+    font-size: 2.4rem;
+    font-weight: inherit;
+    margin-bottom: 1rem;
+  }
+  
+  .newsletter__data p {
+    font-size: 1.5rem;
+    color: var(--black2);
+  }
+  
+  .newsletter__email {
+    font-size: 1.4rem;
+    display: inline-block;
+    width: 37rem;
+    padding: 1.6rem;
+    background-color: var(--primaryColor);
+    border: none;
+    text-indent: 1rem;
+  }
+  
+  .newsletter__email:focus {
+    outline: none;
+  }
+  
+  .newsletter__link:link,
+  .newsletter__link:visited {
+    display: inline-block;
+    padding: 1.4rem 3rem;
+    margin-left: -0.5rem;
+    background-color: var(--black);
+    color: var(--white);
+    transition: 0.3s;
+  }
+  
+  .newsletter__link:hover {
+    background-color: #000;
+  }
+  
+  /* Newsletter media query */
+
+  @media only screen and (max-width: 998px) {
+    .newsletter {
+      padding: 6rem 4rem;
+    }
+  
+    .newsletter__content {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .newsletter__email {
+      width: 45rem;
+    }
+  
+    .newsletter__data {
+      margin-bottom: 2rem;
+    }
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .newsletter__content {
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+  
+    .newsletter__email {
+      width: 45rem;
+      display: block;
+      margin-bottom: 1.6rem;
+    }
+  }
+  
+  @media only screen and (max-width: 568px) {
+    .newsletter__email {
+      width: 23rem;
+      font-size: 1.2rem;
+    }
+  
+    .newsletter__data h3 {
+      font-size: 1.6rem;
+    }
+  
+    .newsletter__data p {
+      font-size: 1rem;
+    }
+  
+    .newsletter__link:link,
+    .newsletter__link:visited {
+      padding: 1.2rem 2rem;
+      margin-left: 0;
+    }
+  }
+
+  
+  /* Footer */
+
+  .footer{
+      background-color: var(--black3);
+      padding: 6rem 1rem;
+      line-height:3rem;
+  }
+
+  .footer-top__box span svg{
+           width: 1.6rem;
+           height: 1.6rem;
+           fill: var(--grey3);
+  }
+
+  .footer-top__box span{
+      margin-right: 1rem;
+  }
+
+  .footer-top{
+      display: grid;
+      grid-template-columns: repeat(4,1fr);
+      color: var(--grey3);
+
+  }
+
+  .footer-top__box a:link,
+  .footer-top__box a:visited{
+      display: block;
+      color: var(--grey);
+      font-size: 1.4rem;
+      transition: .6s;
+  }
+
+
+  .footer-top__box a:hover{
+      color: var(--orange);
+  }
+
+  .footer-top__box div{
+      color: var(--grey);
+      font-size: 1.4rem;
+  }
+
+  .footer-top__box h3{
+      font-size:1.8rem;
+      margin-bottom: 1rem;
+  }
+
+
+  @media only screen and (max-width: 998px){
+    .footer-top{
+        grid-template-columns: repeat(2,1fr);
+        row-gap: 2rem;
+    }
+  }
+
+
+  @media only screen and (max-width: 568px){
+    .footer-top{
+        grid-template-columns: 1fr;
+    }
+  }

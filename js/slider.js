@@ -6,7 +6,7 @@ Glide Js Carousel
 const slider1 = document.getElementById("glide_1");
 const slider2 = document.getElementById("glide_2");
 const slider3 = document.getElementById("glide_3");
-
+const slider4 = document.getElementById("glide_4");
 
 /*
 =============
@@ -43,10 +43,10 @@ if (slider2) {
     animationTimingFunc: "ease-in-out",
     breakpoints: {
       1200: {
-        perView: 3
+        perView: 3,
       },
       768: {
-        perView: 2
+        perView: 2,
       },
     }
 
@@ -73,7 +73,27 @@ if (slider3) {
     animationTimingFunc: "ease-in-out",
   }).mount();
 }
-// News
 
+// News
+if (slider4) {
+  new Glide("#glide_4", {
+    type: "carousel",
+    startAt: 0,
+    perView: 3,
+    hoverpause:true,
+    autoplay: 3000,
+    animationDuration: 800,
+    animationTimingFunc: "ease-in-out",
+
+    breakpoints: {
+      998: {
+        perView: 2,
+      },
+      768: {
+        perView: 1,
+      },
+    }
+  }).mount();
+}
 
 AOS.init();
