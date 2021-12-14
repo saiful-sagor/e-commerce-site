@@ -107,7 +107,7 @@ To do:
 
 ## Acknowledgements
 
-- Submission Video [this tutorial](https://www.example.com).
+- Submission Video [Here](https://drive.google.com/file/d/10Igm8fyyxIn8PVTgE7S2EeW5IebRfoug/view?usp=sharing).
 - Many thanks to...My partner Ismahabul Hasan Sizan
 
 
