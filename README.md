@@ -70,6 +70,7 @@ Here are the ready features of this project:
 
 ## Screenshots
 ![Example screenshot](./images/screenshot2.png)
+
 ![Example screenshot](./images/screenshot3.png)
 
 ![Example screenshot](./images/screenshot4.png)
@@ -81,6 +82,26 @@ Here are the ready features of this project:
 ![Example screenshot](./images/screenshot7.png)
 
 ![Example screenshot](./images/screenshot1.png)
+
+![Example screenshot](./images/Screenshot8.png)
+
+![Example screenshot](./images/Screenshot9.png)
+
+![Example screenshot](./images/Screenshot10.png)
+
+![Example screenshot](./images/Screenshot11.png)
+
+![Example screenshot](./images/Screenshot12.png)
+
+![Example screenshot](./images/Screenshot13.png)
+
+![Example screenshot](./images/Screenshot14.png)
+
+![Example screenshot](./images/Screenshot15.png)
+
+![Example screenshot](./images/Screenshot16.png)
+
+
 <!-- If you have screenshots you'd like to share, include them here. -->
 
 
